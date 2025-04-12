@@ -3,12 +3,14 @@
     padding:0px;
     background-color:black;
     color: white;
+    height:fit-content;
+    width:auto;
 }
 #container{
     display: flex;
     gap:15px; 
     margin-top:25px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .box{

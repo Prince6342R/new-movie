@@ -2,37 +2,28 @@
     margin:0px;
     padding: 0px;
 }
-
-
-
 #one{
     display: flex;
     justify-content: center;
 
 }
-
 h1{
     text-align: center;
     background-color:black;
     color:red;
 }
-
 h1:hover{
     background-color: orangered;
     color: black;
-
 }
-
 h2{
     text-align: center;
     background-color:black;
     color:red;
 }
-
 h2:hover{
     background-color: orangered;
     color: black;
-
 }
 .name{
     color:red;
@@ -59,42 +50,46 @@ h3:hover{
     background-color: orangered;
     color: black;
 }
-
+.watchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;    
+}
 .watch{
-    height: 30px; 
-    width: 250px;
+    height: fit-content; 
+    width: 220px;
     background-color: orangered;
-    margin: 0vw 41vw;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center; 
     transition: 0.8s;
+    padding: 5px;
 }
 .watch:hover{
     background-color:green;
 }
 .watch1{
-    height:30px; 
-    width: 250px;
+    height: fit-content; 
+    width: 220px;
     background-color: orangered;
-    margin: 0vw 41vw;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center; 
     transition: 0.8s;
+    padding: 5px;
 }
 .watch1:hover{
     background-color:green;  
 }
-
 a{
     text-decoration: none;
     color: black;
     font-size:14px ;
     font-family: arial;
-
 }
 h4{
     text-align: center;
@@ -102,7 +97,6 @@ h4{
     font-family: arial;
     background-color: aqua;
 }
-
 .Screenshot{
     padding: 10px;
     width: 300;
@@ -110,7 +104,6 @@ h4{
     display: flex;
     flex-wrap:wrap;
 } 
-
 #screenshot1{
     height: 450px;
     width: 739px;

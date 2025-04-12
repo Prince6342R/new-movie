@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+#one{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    text-align: center;
+    background-color:black;
+    color:red;
+}
+
+h1:hover{
+    background-color: orangered;
+    color: black;
+
+}
+
+h2{
+    text-align: center;
+    background-color:black;
+    color:red;
+}
+
+h2:hover{
+    background-color: orangered;
+    color: black;
+
+}
+.name{
+    color:red;
+}
+.genre{
+    color:orangered;
+}
+.time{
+    color:green;
+}
+.language{
+    color: red;
+}
+.cast{
+    color: blue;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    background-color: aqua;
+}
+h3:hover{
+    background-color: orangered;
+    color: black;
+}
+.watch{
+    height: 30px; 
+    width: 250px;
+    background-color: orangered;
+    margin: 0vw 41vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    transition: 0.8s;
+}
+.watch:hover{
+    background-color:green;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size:14px ;
+    font-family: arial;
+
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    background-color: aqua;
+}
+.Screenshot{
+    padding: 10px;
+    width: 300;
+    height: 400;
+    display: flex;
+    flex-wrap:wrap;
+} 
+
+#screenshot1{
+    height: 450px;
+    width: 739px;
+    margin: 0 20px 20px 0;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+#screenshot2{
+    height: 450px;
+    width: 739px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}

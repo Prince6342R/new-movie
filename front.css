@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding:0px;
+    background-color:black;
+    color: white;
+}
+#container{
+    display: flex;
+    gap:15px; 
+    margin-top:25px;
+    margin-left: 10px;
+}
+
+.box{
+    height:215px;
+    width: 195px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+#headpic {
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    color:red;
+    /* font-size:px; */
+    font-family: arial;
+    text-align: center;
+    background-color: orangered;
+}
+span{
+    color:white;
+}
+#heart{
+    color:red;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+
+}
+b{
+    color:red;
+}
+#industry{
+    color:green
+}
+
+img{
+    /* border-radius: 10px; */
+    width:195px;
+    height:150px;
+}
+button{
+    border: 2px solid orangered;
+    height: 100px;
+    width: 250px;
+    font-size: 18px;
+    font-weight:850;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    background-color: black;
+    }
+    button:hover{
+        background-color:green;
+        border:2px solid green;
+    }    
+    #jumppage:hover{
+        background-color:green;
+        color:black;
+    }
+.all{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+h2{
+    text-align: center;
+    background-color:orangered;
+    /* color: rgb(4, 0, 14); */
+    color:black;
+    font-weight:900;
+}
+
+
+
+

@@ -14,7 +14,7 @@
     
     .box{
         height:215px;
-        width: 195px;
+        width: 160px;
         border: 2px solid white;
         border-radius: 10px;
         background-color: black;
@@ -25,7 +25,7 @@
     }
     
     #headpic {
-        height: 350px;
+        height: 150px;
         width: 100%;
         border-radius: 10px;
     }

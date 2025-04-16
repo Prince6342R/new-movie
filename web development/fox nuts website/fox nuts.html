@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhana Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px;
+}
+
+.cta {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to the Makhana Business</h1>
+        <p>Discover the goodness of Makhana - A healthy, natural snack for all!</p>
+        <a href="#products" class="cta">Shop Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Makhana Business. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are a leading supplier of premium quality Makhana, also known as Fox Nuts. Our journey started with a passion to bring healthy, nutritious snacks to people worldwide. Sourced from the heart of India, our Makhana is harvested, cleaned, roasted, and packaged with utmost care to retain all its nutritional values.</p>
+    <p>Our goal is to promote health and wellness through the goodness of Makhana.</p>
+</section>
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+        <img src="makhana1.jpg" alt="Makhana 1">
+        <h3>Plain Makhana</h3>
+        <p>Our Plain Makhana is roasted to perfection. A great option for a healthy snack.</p>
+        <p><strong>Price: $10.99</strong></p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="makhana2.jpg" alt="Makhana 2">
+        <h3>Masala Makhana</h3>
+        <p>Spicy and flavorful, our Masala Makhana is a perfect treat for your taste buds.</p>
+        <p><strong>Price: $12.99</strong></p>
+        <button>Buy Now</button>
+    </div>
+</section>
+<section id="benefits">
+    <h2>Health Benefits of Makhana</h2>
+    <ul>
+        <li>Rich in protein and fiber</li>
+        <li>Boosts heart health</li>
+        <li>Helps in weight management</li>
+        <li>Loaded with antioxidants</li>
+        <li>Improves digestion</li>
+    </ul>
+</section>
+<section id="blog">
+    <h2>Blog</h2>
+    <article>
+        <h3>Why Makhana is the Best Snack for Weight Loss</h3>
+        <p>Learn about the numerous benefits of Makhana in your diet, especially if you're aiming for weight loss.</p>
+        <a href="#">Read More</a>
+    </article>
+
+    <article>
+        <h3>How to Roast Makhana at Home</h3>
+        <p>Step-by-step guide to making your own roasted Makhana at home.</p>
+        <a href="#">Read More</a>
+    </article>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
